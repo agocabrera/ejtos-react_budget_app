@@ -20,6 +20,7 @@ const AllocationForm = (props) => {
             name: name,
             cost: parseInt(cost),
         };
+        
         if (action === "Reduce") {
             dispatch({
                 type: 'RED_EXPENSE',
